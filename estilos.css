@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+.contenedor-top{
+background-image: url(fondo.jpg);
+background-size: 100%;
+    }
+.top{
+    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.top-text{
+    padding: 3% 0px;
+}
+.top-boton{
+    padding: 1.3% 3%;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: black;
+    color: white;
+}
+/* seccion 2 */
+.info{
+    text-align:center;
+    font-family: sans-serif;
+}
+.info-title{
+    font-size: 200%;
+    padding-top: 5%;
+}
+.info-distribucion{
+    display: flex;
+}
+.info-derecha,.info-izquierda{
+    padding: 2em 1.5em;
+    font-family: sans-serif;
+}
+/* seccion 3 */
+.ejemplos{
+    background-color: gray;
+}
+.ejemplos-cards{
+    display: flex;
+}
+.ejemplos-cards2{
+    margin :2% 1%;
+    background-color: white;
+
+}
+.cards-info{
+    text-align: center;
+    margin: 15%;
+    font-family: sans-serif;
+}
+.cards-fotos{
+    width: 100%;
+}
+.cards-info-title{
+    padding: 15%;
+    align-items: center;
+}
+/*seccion 4*/
+.we{
+    margin: 5%;
+    text-align: center;
+}
+.we-title{
+    font-size: 150%;
+}
+
+.we-text{
+    padding-top:3%;
+}
+/*seccion5*/
+.extra{
+    text-align: center;
+    display: flex;
+    color: white;
+}
+.contact{
+    background-color: aqua;
+    padding: 5%;
+}
+.title{
+    padding: 3%;
+}
+.company{
+    background-color: gray;
+    padding: 5%;
+}
+/*footer*/
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 4%;
+}
+.footer2{
+    display: flex;
+}
+.name{
+    color: cornflowerblue;
+}
